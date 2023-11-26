@@ -6,6 +6,7 @@ Widget favouriteMovieDataWidget({BuildContext? context,
   String ?posterUrl,String?title,
   String?releaseDate,String?overView
 }){
+
   var width = MediaQuery.of(context!).size.width;
   var height = MediaQuery.of(context).size.height;
   return Container(
